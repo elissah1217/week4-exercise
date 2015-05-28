@@ -13,6 +13,9 @@
 		A4A2AA811B16AF25007EBFB6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4A2AA801B16AF25007EBFB6 /* Images.xcassets */; };
 		A4A2AA841B16AF25007EBFB6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4A2AA821B16AF25007EBFB6 /* LaunchScreen.xib */; };
 		A4A2AA901B16AF25007EBFB6 /* week4_exerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2AA8F1B16AF25007EBFB6 /* week4_exerciseTests.swift */; };
+		A4A2AA9A1B16AFB2007EBFB6 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2AA991B16AFB2007EBFB6 /* MenuViewController.swift */; };
+		A4A2AA9C1B16AFBB007EBFB6 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2AA9B1B16AFBB007EBFB6 /* FeedViewController.swift */; };
+		A4A2AA9E1B16B01E007EBFB6 /* HamburgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2AA9D1B16B01E007EBFB6 /* HamburgerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		A4A2AA891B16AF25007EBFB6 /* week4 exerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "week4 exerciseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A2AA8E1B16AF25007EBFB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4A2AA8F1B16AF25007EBFB6 /* week4_exerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week4_exerciseTests.swift; sourceTree = "<group>"; };
+		A4A2AA991B16AFB2007EBFB6 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		A4A2AA9B1B16AFBB007EBFB6 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		A4A2AA9D1B16B01E007EBFB6 /* HamburgerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +86,12 @@
 				A4A2AA791B16AF25007EBFB6 /* AppDelegate.swift */,
 				A4A2AA7B1B16AF25007EBFB6 /* ViewController.swift */,
 				A4A2AA7D1B16AF25007EBFB6 /* Main.storyboard */,
+				A4A2AA9D1B16B01E007EBFB6 /* HamburgerViewController.swift */,
 				A4A2AA801B16AF25007EBFB6 /* Images.xcassets */,
 				A4A2AA821B16AF25007EBFB6 /* LaunchScreen.xib */,
 				A4A2AA771B16AF25007EBFB6 /* Supporting Files */,
+				A4A2AA991B16AFB2007EBFB6 /* MenuViewController.swift */,
+				A4A2AA9B1B16AFBB007EBFB6 /* FeedViewController.swift */,
 			);
 			path = "week4 exercise";
 			sourceTree = "<group>";
@@ -213,6 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4A2AA7C1B16AF25007EBFB6 /* ViewController.swift in Sources */,
+				A4A2AA9A1B16AFB2007EBFB6 /* MenuViewController.swift in Sources */,
+				A4A2AA9C1B16AFBB007EBFB6 /* FeedViewController.swift in Sources */,
+				A4A2AA9E1B16B01E007EBFB6 /* HamburgerViewController.swift in Sources */,
 				A4A2AA7A1B16AF25007EBFB6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
